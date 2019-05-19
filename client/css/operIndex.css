@@ -1,0 +1,17 @@
+
+
+
+/* 底部版权 */
+.footer {
+	padding-top: 20px;
+	border-top: 1px solid #ededed;
+}
+
+.footer a {
+	margin-right: 10px;
+}
+
+.footer a:hover {
+	text-decoration: none;
+	cursor: pointer
+}

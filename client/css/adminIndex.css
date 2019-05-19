@@ -1,0 +1,52 @@
+
+/* 页数导航模块 */
+.pagination.square li a {
+	margin: 0;
+	border: 1px solid #87CEFA;
+	color: #87CEFA;
+}
+ 
+.pagination.square li:first-child a,
+.pagination.square li:last-child a {
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 0;
+}
+
+.pagination.blue li a:hover,
+.pagination.blue li a:focus {
+	border: 1px solid blue;
+	background-color: #fff;
+	color: blue;
+}
+
+.pagination.blue .active a,
+.pagination.blue .active a:hover,
+.pagination.blue .active a:focus {
+	color: #fff;
+	background-color: #87CEFA;
+	border-color: #87CEFA;
+}
+
+.pagination.blue .disabled a,
+.pagination.blue .disabled a:hover,
+.pagination.blue .disabled a:focus {
+	color: #ccc;
+	background-color: #fff;
+	border-color: #87CEFA;
+}
+
+/* 底部版权 */
+footer nav {
+	padding-top: 20px;
+	border-top: 1px solid #ededed;
+} 
+
+footer a {
+	margin-right: 10px;
+}
+
+footer a:hover {
+	text-decoration: none;
+	cursor: pointer
+}

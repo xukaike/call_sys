@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			.income_box {
+				max-height: 581px;
+				min-height: 30px;
+
+				height: 581px;
+				overflow: hidden;
+				position: relative;
+				margin: 0 auto;
+				width: 795px;
+			}
+
+			.colgroup1,
+			.colgroup2 {
+				width: 15%;
+			}
+
+			.colgroup3,
+			.colgroup4,
+			.colgroup5,
+			.colgroup6 {
+				width: 14%;
+			}
+
+			.income_table {
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+
+			.pptv_pages .pages {
+				display: inline-block;
+				top: 20px;
+				padding: 4px 0;
+				height: 38px;
+				overflow: hidden;
+				position: relative;
+			}
+
+			.pptv_pages .inner_pages {
+				display: inline-block;
+				position: absolute;
+				top: 12px;
+				left: 0;
+				height: 38px;
+			}
+		</style>
+		
+		<script src="js/test.js"></script>
+	</head>
+	<body>
+		<div class="income_box">
+			<table class="ad_list ad_link">
+				<colgroup class="colgroup1"></colgroup>
+				<colgroup class="colgroup2"></colgroup>
+				<colgroup class="colgroup3"></colgroup>
+				<colgroup class="colgroup4"></colgroup>
+				<colgroup class="colgroup5"></colgroup>
+				<colgroup class="colgroup6"></colgroup>
+				<tr>
+					<th>分会账号</th>
+					<th>名称</th>
+					<th>充值总额</th>
+					<th>充值次数</th>
+					<th>注册人数</th>
+					<th>注册IP数</th>
+					<th>日期</th>
+				</tr>
+			</table>
+			<div class="income_box" id="income_box">
+				<table class="ad_list ad_link income_table" id="income_table">
+					<colgroup class="colgroup1"></colgroup>
+					<colgroup class="colgroup2"></colgroup>
+					<colgroup class="colgroup3"></colgroup>
+					<colgroup class="colgroup4"></colgroup>
+					<colgroup class="colgroup5"></colgroup>
+					<colgroup class="colgroup6"></colgroup>
+					<tr>
+						<td>abcxd1</td>
+						<td>是对方即</td>
+						<td>1000</td>
+						<td>50</td>
+						<td>60</td>
+						<td>60</td>
+						<td>2016.08.05</td>
+					</tr>
+					<tr>
+						<td>abcxd2</td>
+						<td>是对方即</td>
+						<td>1000</td>
+						<td>50</td>
+						<td>60</td>
+						<td>60</td>
+						<td>2016.08.05</td>
+					</tr>
+					<tr>
+						<td>abcxd3</td>
+						<td>是对方即</td>
+						<td>1000</td>
+						<td>50</td>
+						<td>60</td>
+						<td>60</td>
+						<td>2016.08.05</td>
+					</tr>
+					<tr>
+						<td>abcxd4</td>
+						<td>是对方即</td>
+						<td>1000</td>
+						<td>50</td>
+						<td>60</td>
+						<td>60</td>
+						<td>2016.08.05</td>
+					</tr>
+					...
+				</table>
+			</div>
+			<div class="pptv_pages" id="pages_box">
+				<div class="pptv_pages">
+					<span></span>
+					<span></span>
+					<span><a href="javascript:void(0);" class="prev">上一页</a></span>
+					<div class="pages">
+						<div class="inner_pages J_pages"></div>
+					</div>
+					<span><a href="javascript:void(0);" class="next">下一页</a></span>
+					<div>
+						<select id="select_pages"></select>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<script src="jquery/jquery.min.js"></script>
+	</body>
+	
+</html>
